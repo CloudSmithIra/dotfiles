@@ -108,13 +108,16 @@ fuction mkcd() {
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias ls="ls -laFh --color=tty"
+#alias ls="ls -laFh --color=tty"
 alias aws="docker run --rm -it -v ~/.aws:/root/.aws -v $(pwd):/aws amazon/aws-cli"
-alias zshconfig="code ~/.zshrc"
-alias ohmyzsh="code ~/.oh-my-zsh"
-alias heavef="cd ~/dev/heave/frontend"
-alias heaveb="cd ~/dev/heave/backend"
-alias heave2f="cd ~/dev/heave-co/frontend"
-alias heave2b="cd ~/dev/heave-co/backend"
+alias exa="exa -laFh --git"
+alias exat="exa --tree --level=3"
 alias gotodev="cd ~/dev"
+alias heave2b="cd ~/dev/heave-co/backend"
+alias heave2f="cd ~/dev/heave-co/frontend"
+alias heaveb="cd ~/dev/heave/backend"
+alias heavef="cd ~/dev/heave/frontend"
+alias ls="exa -laFh --git"
+alias ohmyzsh="code ~/.oh-my-zsh"
+alias zshconfig="code ~/.zshrc"
 alias zshref="exec zsh"
