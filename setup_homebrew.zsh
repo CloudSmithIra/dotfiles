@@ -8,8 +8,9 @@ brew install bat
 brew install httpie
 brew install wget
 
-brew install --cask google-chrome
-brew install --cask lastpass
-brew install --cask microsoft-office
-brew install --cask visual-studio
-brew install --cask visual-studio-code
+brew cask install --no-quarantine alfred
+brew cask install --no-quarantine google-chrome
+brew cask install --no-quarantine lastpass
+brew cask install --no-quarantine microsoft-office
+brew cask install --no-quarantine visual-studio
+brew cask install --no-quarantine visual-studio-code
