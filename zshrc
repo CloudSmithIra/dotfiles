@@ -76,6 +76,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# variables
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
 #functions
 fuction mkcd() {
   mkdir -p "$@" && cd "$_"
