@@ -2,15 +2,8 @@
 
 echo "\n<<< setting up homebrew >>>\n"
 
+# Install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-brew install bat
-brew install httpie
-brew install wget
-
-brew cask install --no-quarantine alfred
-brew cask install --no-quarantine google-chrome
-brew cask install --no-quarantine lastpass
-brew cask install --no-quarantine microsoft-office
-brew cask install --no-quarantine visual-studio
-brew cask install --no-quarantine visual-studio-code
+# This adds all from Brewfile
+brew bundle --verbose
