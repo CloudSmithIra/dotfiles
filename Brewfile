@@ -12,8 +12,8 @@ brew "exa"
 brew "gcc"
 brew "git"
 brew "httpie"
-#brew "mas"
 brew "nvm"
+#brew "mas"
 brew "wget"
 
 #Casks - apps

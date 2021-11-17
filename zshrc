@@ -79,9 +79,6 @@ source $ZSH/oh-my-zsh.sh
 # variables
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 #export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-[ -x "$(command -v npm)" ] && export NODE_PATH=$NODE_PATH:`npm root -g` # set NODE_PATH
 
 #functions
 fuction mkcd() {
@@ -111,6 +108,7 @@ fuction mkcd() {
 # Example aliases
 #alias ls="ls -laFh --color=tty"
 alias aws="docker run --rm -it -v ~/.aws:/root/.aws -v $(pwd):/aws amazon/aws-cli"
+alias brew-dump="brew bundle dump --force --describe"
 alias exa="exa -laFh --git"
 alias exat="exa --tree --level=3"
 alias gotodev="cd ~/dev"
