@@ -1,4 +1,5 @@
 # Taps - repos
+tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
@@ -6,10 +7,12 @@ tap "homebrew/core"
 # Brews - packages
 # https://formulae.brew.sh/formula/
 brew "bat"
+brew "bat-extras"
 brew "exa"
 brew "gcc"
 brew "git"
 brew "httpie"
+#brew "mas"
 brew "nvm"
 brew "wget"
 
@@ -35,3 +38,7 @@ cask "sublime-text"
 cask "visual-studio"
 cask "visual-studio-code"
 cask "vlc"
+
+# app store
+#mas "iMovie", 408981434
+#mas "Snappy", 512617038

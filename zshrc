@@ -78,7 +78,7 @@ source $ZSH/oh-my-zsh.sh
 
 # variables
 export HOMEBREW_CASK_OPTS="--no-quarantine"
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+#export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
@@ -118,6 +118,7 @@ alias heave2f="cd ~/dev/heave-co/frontend"
 alias heaveb="cd ~/dev/heave/backend"
 alias heavef="cd ~/dev/heave/frontend"
 alias ls="exa -laFh --git"
+alias man="batman"
 alias ohmyzsh="code ~/.oh-my-zsh"
 alias zshconfig="code ~/.zshrc"
 alias zshref="exec zsh"
