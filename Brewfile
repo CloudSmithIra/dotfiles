@@ -13,7 +13,7 @@ brew "gcc"
 brew "git"
 brew "httpie"
 brew "nvm"
-#brew "mas"
+brew "mas"
 brew "wget"
 
 #Casks - apps
@@ -41,5 +41,5 @@ cask "visual-studio-code"
 cask "vlc"
 
 # app store
-#mas "iMovie", 408981434
-#mas "Snappy", 512617038
+mas "iMovie", 408981434
+mas "Snappy", 512617038
