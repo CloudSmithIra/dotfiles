@@ -19,6 +19,7 @@ brew "wget"
 #Casks - apps
 # https://formulae.brew.sh/cask/
 cask "alfred"
+cask "aerial"
 cask "docker"
 cask "dropbox"
 cask "figma"
@@ -29,17 +30,20 @@ cask "microsoft-auto-update"
 cask "microsoft-office"
 cask "microsoft-teams"
 cask "onedrive"
-cask "rectangle"
+#cask "rectangle"
 cask "slack"
-cask "spotify"
+#cask "spotify"
 cask "sourcetree"
 cask "sublime-text"
 cask "teamviewer"
 cask "termius"
-cask "visual-studio"
+#cask "visual-studio"
 cask "visual-studio-code"
 cask "vlc"
 
 # app store
+mas "Amphetamine", 937984704
 mas "iMovie", 408981434
+mas "Magnet", 441258766
+mas "Shush", 496437906
 mas "Snappy", 512617038
