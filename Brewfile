@@ -59,10 +59,10 @@ cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
 mas "Amphetamine", id: 937984704
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Messenger", id: 1480068668
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
+#mas "GarageBand", id: 682658836
+#mas "iMovie", id: 408981434
+#mas "Keynote", id: 409183694
+#mas "Messenger", id: 1480068668
+#mas "Numbers", id: 409203825
+#mas "Pages", id: 409201541
 mas "Snappy", id: 512617038
