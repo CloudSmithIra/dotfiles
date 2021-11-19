@@ -111,6 +111,7 @@ fuction mkcd() {
 #
 # Example aliases
 #alias ls="ls -laFh --color=tty"
+alias as="alias | grep "
 alias aws="docker run --rm -it -v ~/.aws:/root/.aws -v $(pwd):/aws amazon/aws-cli"
 alias brew-dump="brew bundle dump --force --describe"
 alias cat="bat"
