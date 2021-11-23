@@ -1,6 +1,7 @@
 tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
@@ -32,6 +33,7 @@ cask "docker"
 cask "dropbox"
 # Collaborative team software
 cask "figma"
+cask "font-fira-code"
 # Web browser
 cask "google-chrome"
 # Client for the Google Drive storage service
