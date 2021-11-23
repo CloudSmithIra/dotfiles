@@ -17,6 +17,8 @@ brew "git"
 brew "httpie"
 # Mac App Store command-line interface
 brew "mas"
+# Fast, highly customisable system info script
+brew "neofetch"
 # Manage multiple Node.js versions
 brew "nvm"
 # Internet file retriever
