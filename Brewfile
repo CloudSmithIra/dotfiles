@@ -25,6 +25,8 @@ brew "nvm"
 brew "wget"
 # Apple TV Aerial screensaver
 cask "aerial"
+# Menu bar tool to limit maximum charging percentage
+cask "aldente"
 # Application launcher and productivity software
 cask "alfred"
 # Multi-track audio editor and recorder
@@ -42,6 +44,8 @@ cask "google-chrome"
 cask "google-drive"
 # Password manager
 cask "lastpass"
+# WordPress local development tool by Flywheel
+cask "local"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Office suite
