@@ -1,3 +1,5 @@
+# Brew config
+export HOMEBREW_CASK_OPTS="--no-quarantine --no-binaries"
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
