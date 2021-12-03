@@ -23,6 +23,8 @@ brew "neofetch"
 brew "nvm"
 # Internet file retriever
 brew "wget"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
 # Apple TV Aerial screensaver
 cask "aerial"
 # Menu bar tool to limit maximum charging percentage
@@ -71,6 +73,7 @@ cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
 mas "Amphetamine", id: 937984704
+mas "ColorSlurp", id: 1287239339
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Messenger", id: 1480068668
