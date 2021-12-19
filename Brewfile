@@ -65,6 +65,8 @@ cask "microsoft-office"
 cask "microsoft-teams"
 # Retro video game emulation
 cask "openemu"
+# Archive manager for data compression and backups
+cask "rar"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Dreamcast emulator
@@ -91,4 +93,5 @@ mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Messenger", id: 1480068668
 mas "TestFlight", id: 899247664
+mas "The Unarchiver", id: 425424353
 mas "Xcode", id: 497799835
