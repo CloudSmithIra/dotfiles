@@ -7,7 +7,7 @@ if exists node; then
 else
   # Dig out nvm
   . "$NVM_DIR/nvm.sh"
-  nvm install 14
+  nvm install lts
 fi
 
 if exists yarn; then
