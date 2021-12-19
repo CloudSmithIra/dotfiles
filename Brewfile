@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+tap "stripe/stripe-cli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Bash scripts that integrate bat with various command-line tools
@@ -21,10 +22,14 @@ brew "mas"
 brew "neofetch"
 # Manage multiple Node.js versions
 brew "nvm"
+# 7-Zip is a file archiver with a high compression ratio
+brew "sevenzip"
 # Internet file retriever
 brew "wget"
 # Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
+# Stripe CLI utility
+brew "stripe/stripe-cli/stripe"
 # Apple TV Aerial screensaver
 cask "aerial"
 # Menu bar tool to limit maximum charging percentage
@@ -35,10 +40,14 @@ cask "alfred"
 cask "audacity"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Emulator to play GameCube and Wii games
+cask "dolphin"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Collaborative team software
 cask "figma"
+# Web browser
+cask "firefox"
 cask "font-fira-code"
 # Web browser
 cask "google-chrome"
@@ -54,8 +63,12 @@ cask "microsoft-auto-update"
 cask "microsoft-office"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
+# Retro video game emulation
+cask "openemu"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Dreamcast emulator
+cask "redream"
 # Team communication and collaboration software
 cask "slack"
 # Graphical client for Git version control
