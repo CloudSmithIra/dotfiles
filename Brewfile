@@ -71,6 +71,8 @@ cask "rar"
 cask "rectangle"
 # Dreamcast emulator
 cask "redream"
+# PDF editor
+cask "sejda-pdf"
 # Team communication and collaboration software
 cask "slack"
 # Graphical client for Git version control
