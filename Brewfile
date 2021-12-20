@@ -38,12 +38,16 @@ cask "aldente"
 cask "alfred"
 # Multi-track audio editor and recorder
 cask "audacity"
+# Menu bar icon organizer
+cask "bartender"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Emulator to play GameCube and Wii games
 cask "dolphin"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# Productivity app
+cask "dropzone"
 # Collaborative team software
 cask "figma"
 # Web browser
