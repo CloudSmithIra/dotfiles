@@ -40,6 +40,8 @@ cask "alfred"
 cask "audacity"
 # Menu bar icon organizer
 cask "bartender"
+# Free up disk space
+cask "disk-diet"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Emulator to play GameCube and Wii games
@@ -89,6 +91,8 @@ cask "sublime-text"
 cask "teamviewer"
 # SSH client
 cask "termius"
+# Temperature monitoring, fan control and diagnostics
+cask "tg-pro"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
