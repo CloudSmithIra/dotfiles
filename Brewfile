@@ -99,10 +99,12 @@ cask "visual-studio-code"
 cask "vlc"
 mas "Amphetamine", id: 937984704
 mas "ColorSlurp", id: 1287239339
+mas "DaVinci Resolve", id: 571213070
 mas "feedly", id: 865500966
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Messenger", id: 1480068668
 mas "TestFlight", id: 899247664
 mas "The Unarchiver", id: 425424353
+mas "VN", id: 1494451650
 mas "Xcode", id: 497799835
