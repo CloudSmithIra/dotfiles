@@ -79,6 +79,8 @@ cask "openemu"
 cask "rar"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# GUI for streamlined Redis application development
+cask "redisinsight"
 # Dreamcast emulator
 cask "redream"
 # PDF editor
