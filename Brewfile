@@ -95,6 +95,8 @@ cask "spotify"
 cask "sublime-text"
 # Remote access and connectivity software focused on security
 cask "teamviewer"
+# Messaging app with a focus on speed and security
+cask "telegram"
 # SSH client
 cask "termius"
 # Temperature monitoring, fan control and diagnostics
