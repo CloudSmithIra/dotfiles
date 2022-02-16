@@ -107,6 +107,7 @@ cask "visual-studio-code"
 cask "vlc"
 mas "Amphetamine", id: 937984704
 mas "ColorSlurp", id: 1287239339
+mas "ContactsMate", id: 1236603338
 mas "DaVinci Resolve", id: 571213070
 mas "feedly", id: 865500966
 mas "GarageBand", id: 682658836
