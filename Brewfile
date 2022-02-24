@@ -22,6 +22,8 @@ brew "mas"
 brew "neofetch"
 # Manage multiple Node.js versions
 brew "nvm"
+# Development kit for the Java programming language
+brew "openjdk"
 # 7-Zip is a file archiver with a high compression ratio
 brew "sevenzip"
 # Internet file retriever
@@ -36,6 +38,8 @@ cask "aerial"
 cask "aldente"
 # Application launcher and productivity software
 cask "alfred"
+# Tools for building Android applications
+cask "android-studio"
 # Multi-track audio editor and recorder
 cask "audacity"
 # Menu bar icon organizer
@@ -56,6 +60,8 @@ cask "dropzone"
 cask "figma"
 # Web browser
 cask "firefox"
+# UI toolkit for building applications for mobile, web and desktop
+cask "flutter"
 cask "font-fira-code"
 # Web browser
 cask "google-chrome"
