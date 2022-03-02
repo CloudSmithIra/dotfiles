@@ -16,6 +16,9 @@ export PATH="/Users/ira/Library/Android/sdk/cmdline-tools/latest/bin:$PATH"
 # Flutter from homebrew
 export PATH="/opt/homebrew/Caskroom/flutter/2.10.2/flutter/bin:$PATH"
 
+# Flutter tools
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+
 #APP_HOME=/opt/homebrew/Caskroom/android-sdk/4333796/tools
 # Fix for some Java 11 shit
 CLASSPATH=$APP_HOME/jaxb_lib/activation.jar:$APP_HOME/jaxb_lib/jaxb-impl.jar:$APP_HOME/jaxb_lib/jaxb-xjc.jar:$APP_HOME/jaxb_lib/jaxb-core.jar:$APP_HOME/jaxb_lib/jaxb-jxc.jar:$APP_HOME/jaxb_lib/jaxb-api.jar:$APP_HOME/jaxb_lib/istack-commons-runtime.jar:$CLASSPATH

@@ -10,10 +10,14 @@ brew "bat"
 brew "bat-extras"
 # Modern replacement for 'ls'
 brew "exa"
+# Firebase command-line tools
+brew "firebase-cli"
 # GNU compiler collection
 brew "gcc"
 # Distributed revision control system
 brew "git"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Mac App Store command-line interface
@@ -26,6 +30,8 @@ brew "nvm"
 brew "openjdk"
 # 7-Zip is a file archiver with a high compression ratio
 brew "sevenzip"
+# Watch files and take action when they change
+brew "watchman", args: ["HEAD"]
 # Internet file retriever
 brew "wget"
 # Fish-like fast/unobtrusive autosuggestions for zsh
@@ -42,6 +48,8 @@ cask "alfred"
 cask "android-studio"
 # Multi-track audio editor and recorder
 cask "audacity"
+# Data management tool that enables working with SQL Server
+cask "azure-data-studio"
 # Menu bar icon organizer
 cask "bartender"
 # Free up disk space
@@ -119,6 +127,7 @@ mas "feedly", id: 865500966
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Messenger", id: 1480068668
+mas "Microsoft Remote Desktop", id: 1295203466
 mas "Pixelmator Pro", id: 1289583905
 mas "TestFlight", id: 899247664
 mas "The Unarchiver", id: 425424353
