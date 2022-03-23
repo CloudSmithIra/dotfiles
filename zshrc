@@ -93,6 +93,16 @@ fuction mkcd() {
 }
 
 # export MANPATH="/usr/local/man:$MANPATH"
+# nvm variables
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+[ -x "$(command -v npm)" ] && export NODE_PATH=$NODE_PATH:`npm root -g` # set NODE_PATH
+
+# Expo tools
+[ -d "$HOME/Library/Android/sdk" ] && ANDROID_SDK=$HOME/Library/Android/sdk || ANDROID_SDK=$HOME/Android/Sdk
+echo "export ANDROID_SDK=$ANDROID_SDK" >> ~/`[[ $SHELL == *"zsh" ]] && echo '.zshenv' || echo '.bash_profile'`
+
+echo "export PATH=$HOME/Library/Android/sdk/platform-tools:\$PATH" >> ~/`[[ $SHELL == *"zsh" ]] && echo '.zshenv' || echo '.bash_profile'`
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -137,3 +147,4 @@ alias takeoff="cd ~/dev/takeoff"
 alias zshconfig="code ~/.zshrc"
 alias zshref="exec zsh"
 alias setnvm="nvm use 16"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

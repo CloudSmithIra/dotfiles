@@ -10,6 +10,8 @@ brew "bat"
 brew "bat-extras"
 # Modern replacement for 'ls'
 brew "exa"
+# Platform built on V8 to build network applications
+brew "node"
 # Firebase command-line tools
 brew "firebase-cli"
 # GNU compiler collection
@@ -28,10 +30,12 @@ brew "neofetch"
 brew "nvm"
 # Development kit for the Java programming language
 brew "openjdk"
+# Safe, concurrent, practical language
+brew "rust"
 # 7-Zip is a file archiver with a high compression ratio
 brew "sevenzip"
 # Watch files and take action when they change
-brew "watchman", args: ["HEAD"]
+brew "watchman"
 # Internet file retriever
 brew "wget"
 # Fish-like fast/unobtrusive autosuggestions for zsh
@@ -83,8 +87,6 @@ cask "local"
 cask "microsoft-auto-update"
 # Office suite
 cask "microsoft-office"
-# Meet, chat, call, and collaborate in just one place
-cask "microsoft-teams"
 # App to write, plan, collaborate, and get organized
 cask "notion"
 # Retro video game emulation
@@ -119,6 +121,8 @@ cask "tg-pro"
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
+# Video communication and virtual meeting platform
+cask "zoom"
 mas "Amphetamine", id: 937984704
 mas "ColorSlurp", id: 1287239339
 mas "ContactsMate", id: 1236603338

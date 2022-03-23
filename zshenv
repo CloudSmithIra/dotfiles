@@ -18,11 +18,6 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 # Fix for some Java 11 shit
 CLASSPATH=$APP_HOME/jaxb_lib/activation.jar:$APP_HOME/jaxb_lib/jaxb-impl.jar:$APP_HOME/jaxb_lib/jaxb-xjc.jar:$APP_HOME/jaxb_lib/jaxb-core.jar:$APP_HOME/jaxb_lib/jaxb-jxc.jar:$APP_HOME/jaxb_lib/jaxb-api.jar:$APP_HOME/jaxb_lib/istack-commons-runtime.jar:$CLASSPATH
 
-# nvm variables
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-[ -x "$(command -v npm)" ] && export NODE_PATH=$NODE_PATH:`npm root -g` # set NODE_PATH
-
 function exists() {
   # `command -v` is similar to `which`
   # https://stackoverflow.com/a/677212/1341838
@@ -31,3 +26,5 @@ function exists() {
   # More explicitly written:
   # command -v $1 1>/dev/null 2>/dev/null
 }
+export ANDROID_SDK=/Users/ira/Library/Android/sdk
+export PATH=/Users/ira/Library/Android/sdk/platform-tools:$PATH
