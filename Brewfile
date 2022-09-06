@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+tap "homebrew/services"
 tap "stripe/stripe-cli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
@@ -16,10 +17,12 @@ brew "node"
 brew "firebase-cli"
 # GNU compiler collection
 brew "gcc"
+# GitHub command-line tool
+brew "gh"
 # Distributed revision control system
 brew "git"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
+brew "python@3.10", link: false
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Mac App Store command-line interface
@@ -85,6 +88,8 @@ cask "lastpass"
 cask "local"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
+# Web browser
+cask "microsoft-edge"
 # Office suite
 cask "microsoft-office"
 # App to write, plan, collaborate, and get organized
