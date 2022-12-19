@@ -6,6 +6,7 @@ christian-kohler.path-intellisense
 Dart-Code.dart-code
 Dart-Code.flutter
 dbaeumer.vscode-eslint
+dsznajder.es7-react-js-snippets
 eamodio.gitlens
 eg2.vscode-npm-script
 esbenp.prettier-vscode
@@ -16,6 +17,7 @@ jasonnutter.search-node-modules
 ms-vsliveshare.vsliveshare
 ms-vsliveshare.vsliveshare-audio
 ms-vsliveshare.vsliveshare-pack
+msjsdiag.vscode-react-native
 Nash.awesome-flutter-snippets
 nrwl.angular-console
 PKief.material-icon-theme
@@ -24,6 +26,7 @@ rduraj.expo-toolkit-push
 vscode-icons-team.vscode-icons
 waderyan.nodejs-extension-pack
 wix.glean
+wix.vscode-import-cost
 xabikos.JavaScriptSnippets
 xabikos.ReactSnippets
 zhuangtongfa.material-theme

@@ -33,6 +33,8 @@ brew "neofetch"
 brew "nvm"
 # Development kit for the Java programming language
 brew "openjdk"
+# 📦🚀 Fast, disk space efficient package manager
+brew "pnpm"
 # Safe, concurrent, practical language
 brew "rust"
 # 7-Zip is a file archiver with a high compression ratio
@@ -77,6 +79,7 @@ cask "figma"
 cask "firefox"
 # UI toolkit for building applications for mobile, web and desktop
 cask "flutter"
+# Free monospaced font with programming ligatures
 cask "font-fira-code"
 # Web browser
 cask "google-chrome"
@@ -92,12 +95,16 @@ cask "microsoft-auto-update"
 cask "microsoft-edge"
 # Office suite
 cask "microsoft-office"
+# Meet, chat, call, and collaborate in just one place
+cask "microsoft-teams"
 # App to write, plan, collaborate, and get organized
 cask "notion"
 # Retro video game emulation
 cask "openemu"
 # Archive manager for data compression and backups
 cask "rar"
+# Standalone app for debugging React Native apps
+cask "react-native-debugger"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # GUI for streamlined Redis application development
@@ -132,6 +139,7 @@ mas "Amphetamine", id: 937984704
 mas "ColorSlurp", id: 1287239339
 mas "ContactsMate", id: 1236603338
 mas "DaVinci Resolve", id: 571213070
+mas "Developer", id: 640199958
 mas "feedly", id: 865500966
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
