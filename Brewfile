@@ -9,8 +9,26 @@ tap "stripe/stripe-cli"
 brew "bat"
 # Bash scripts that integrate bat with various command-line tools
 brew "bat-extras"
+# Collection of portable C++ source libraries
+brew "boost"
+# Command-line interface for SQLite
+brew "sqlite"
+# General-purpose scripting language
+brew "php"
+# Dependency Manager for PHP
+brew "composer"
 # Modern replacement for 'ls'
 brew "exa"
+# Collection of reusable C++ library artifacts developed at Facebook
+brew "folly"
+# C++14 implementation of the TLS-1.3 standard
+brew "fizz"
+# Modular, composable client/server abstractions framework
+brew "wangle"
+# Facebook's branch of Apache Thrift, including a new C++ server
+brew "fbthrift"
+# Thrift functions for querying information from a service
+brew "fb303"
 # Platform built on V8 to build network applications
 brew "node"
 # Firebase command-line tools
@@ -35,6 +53,8 @@ brew "nvm"
 brew "openjdk"
 # 📦🚀 Fast, disk space efficient package manager
 brew "pnpm"
+# Python version management
+brew "pyenv"
 # Safe, concurrent, practical language
 brew "rust"
 # 7-Zip is a file archiver with a high compression ratio
