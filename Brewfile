@@ -11,16 +11,18 @@ brew "bat"
 brew "bat-extras"
 # Collection of portable C++ source libraries
 brew "boost"
-# Command-line interface for SQLite
-brew "sqlite"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
 # General-purpose scripting language
 brew "php"
 # Dependency Manager for PHP
 brew "composer"
-# Modern replacement for 'ls'
-brew "exa"
+# Secure runtime for JavaScript and TypeScript
+brew "deno"
 # Collection of reusable C++ library artifacts developed at Facebook
 brew "folly"
+# Modern replacement for 'ls'
+brew "exa"
 # C++14 implementation of the TLS-1.3 standard
 brew "fizz"
 # Modular, composable client/server abstractions framework
@@ -39,8 +41,8 @@ brew "gcc"
 brew "gh"
 # Distributed revision control system
 brew "git"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.10", link: false
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Mac App Store command-line interface
@@ -55,6 +57,8 @@ brew "openjdk"
 brew "pnpm"
 # Python version management
 brew "pyenv"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # Safe, concurrent, practical language
 brew "rust"
 # 7-Zip is a file archiver with a high compression ratio
@@ -81,6 +85,8 @@ cask "audacity"
 cask "azure-data-studio"
 # Menu bar icon organizer
 cask "bartender"
+# Voice and text chat software
+cask "discord"
 # Free up disk space
 cask "disk-diet"
 # App to build and share containerized applications and microservices
@@ -149,6 +155,8 @@ cask "telegram"
 cask "termius"
 # Temperature monitoring, fan control and diagnostics
 cask "tg-pro"
+# To-do list
+cask "todoist"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
@@ -170,3 +178,33 @@ mas "TestFlight", id: 899247664
 mas "The Unarchiver", id: 425424353
 mas "VN", id: 1494451650
 mas "Xcode", id: 497799835
+vscode "azemoh.one-monokai"
+vscode "bradlc.vscode-tailwindcss"
+vscode "christian-kohler.npm-intellisense"
+vscode "christian-kohler.path-intellisense"
+vscode "Dart-Code.dart-code"
+vscode "Dart-Code.flutter"
+vscode "dbaeumer.vscode-eslint"
+vscode "dsznajder.es7-react-js-snippets"
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "expo.vscode-expo-tools"
+vscode "firsttris.vscode-jest-runner"
+vscode "GitHub.codespaces"
+vscode "GitHub.copilot"
+vscode "GitHub.vscode-pull-request-github"
+vscode "jasonnutter.search-node-modules"
+vscode "ms-vsliveshare.vsliveshare"
+vscode "ms-vsliveshare.vsliveshare-pack"
+vscode "msjsdiag.vscode-react-native"
+vscode "Nash.awesome-flutter-snippets"
+vscode "nrwl.angular-console"
+vscode "PKief.material-icon-theme"
+vscode "rangav.vscode-thunder-client"
+vscode "rduraj.expo-toolkit-push"
+vscode "vscode-icons-team.vscode-icons"
+vscode "wix.glean"
+vscode "wix.vscode-import-cost"
+vscode "xabikos.JavaScriptSnippets"
+vscode "xabikos.ReactSnippets"
+vscode "zhuangtongfa.material-theme"

@@ -1,6 +1,5 @@
 azemoh.one-monokai
 bradlc.vscode-tailwindcss
-byCedric.vscode-expo
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 Dart-Code.dart-code
@@ -8,10 +7,11 @@ Dart-Code.flutter
 dbaeumer.vscode-eslint
 dsznajder.es7-react-js-snippets
 eamodio.gitlens
-eg2.vscode-npm-script
 esbenp.prettier-vscode
+expo.vscode-expo-tools
 firsttris.vscode-jest-runner
 GitHub.codespaces
+GitHub.copilot
 GitHub.vscode-pull-request-github
 jasonnutter.search-node-modules
 ms-vsliveshare.vsliveshare
@@ -23,7 +23,6 @@ PKief.material-icon-theme
 rangav.vscode-thunder-client
 rduraj.expo-toolkit-push
 vscode-icons-team.vscode-icons
-waderyan.nodejs-extension-pack
 wix.glean
 wix.vscode-import-cost
 xabikos.JavaScriptSnippets
