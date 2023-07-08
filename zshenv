@@ -28,4 +28,4 @@ function exists() {
 }
 export ANDROID_SDK=/Users/ira/Library/Android/sdk
 export PATH=/Users/ira/Library/Android/sdk/platform-tools:$PATH
-export PATH=/opt/homebrew/Caskroom/ngrok/3.3.1:$PATH
+export PATH=/opt/homebrew/Caskroom/ngrok/3.3.1,gRmfNMWCVKD,a:$PATH
