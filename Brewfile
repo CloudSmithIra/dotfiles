@@ -1,18 +1,38 @@
 tap "eth-p/software"
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
 tap "homebrew/services"
+tap "ngrok/ngrok"
+tap "planetscale/tap"
 tap "stripe/stripe-cli"
+# TIFF library and utilities
+brew "libtiff"
+# Color management engine supporting ICC profiles
+brew "little-cms2"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
+# New file format for still image compression
+brew "jpeg-xl"
+# Codec library for encoding and decoding AV1 video streams
+brew "aom"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Bash scripts that integrate bat with various command-line tools
 brew "bat-extras"
 # Collection of portable C++ source libraries
 brew "boost"
+# C library implementing the SSH2 protocol
+brew "libssh2"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Graphics library to dynamically manipulate images
+brew "gd"
+# Network authentication protocol
+brew "krb5"
+# Postgres C API library
+brew "libpq"
 # General-purpose scripting language
 brew "php"
 # Dependency Manager for PHP
@@ -21,6 +41,8 @@ brew "composer"
 brew "deno"
 # Collection of reusable C++ library artifacts developed at Facebook
 brew "folly"
+# Shared library for Watchman and Eden projects
+brew "edencommon"
 # Modern replacement for 'ls'
 brew "exa"
 # C++14 implementation of the TLS-1.3 standard
@@ -43,17 +65,21 @@ brew "gh"
 brew "git"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Mac App Store command-line interface
 brew "mas"
+# Open source relational database management system
+brew "mysql-client"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Manage multiple Node.js versions
 brew "nvm"
 # Development kit for the Java programming language
 brew "openjdk"
-# 📦🚀 Fast, disk space efficient package manager
+# Fast, disk space efficient package manager
 brew "pnpm"
 # Python version management
 brew "pyenv"
@@ -69,6 +95,8 @@ brew "watchman"
 brew "wget"
 # Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
+# The PlanetScale CLI
+brew "planetscale/tap/pscale"
 # Stripe CLI utility
 brew "stripe/stripe-cli/stripe"
 # Apple TV Aerial screensaver
@@ -77,6 +105,8 @@ cask "aerial"
 cask "aldente"
 # Application launcher and productivity software
 cask "alfred"
+# Enable Windows-like alt-tab
+cask "alt-tab"
 # Tools for building Android applications
 cask "android-studio"
 # Multi-track audio editor and recorder
@@ -85,6 +115,8 @@ cask "audacity"
 cask "azure-data-studio"
 # Menu bar icon organizer
 cask "bartender"
+# Design tool
+cask "canva"
 # Voice and text chat software
 cask "discord"
 # Free up disk space
@@ -113,6 +145,8 @@ cask "google-chrome"
 cask "google-drive"
 # Password manager
 cask "lastpass"
+# Utility that shows the latest app updates
+cask "latest"
 # WordPress local development tool by Flywheel
 cask "local"
 # Provides updates to various Microsoft products
@@ -123,6 +157,8 @@ cask "microsoft-edge"
 cask "microsoft-office"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
 # App to write, plan, collaborate, and get organized
 cask "notion"
 # Retro video game emulation
@@ -178,6 +214,7 @@ mas "TestFlight", id: 899247664
 mas "The Unarchiver", id: 425424353
 mas "VN", id: 1494451650
 mas "Xcode", id: 497799835
+vscode "adpyke.vscode-sql-formatter"
 vscode "azemoh.one-monokai"
 vscode "bradlc.vscode-tailwindcss"
 vscode "christian-kohler.npm-intellisense"
@@ -200,6 +237,7 @@ vscode "msjsdiag.vscode-react-native"
 vscode "Nash.awesome-flutter-snippets"
 vscode "nrwl.angular-console"
 vscode "PKief.material-icon-theme"
+vscode "Prisma.prisma"
 vscode "rangav.vscode-thunder-client"
 vscode "rduraj.expo-toolkit-push"
 vscode "vscode-icons-team.vscode-icons"
@@ -207,4 +245,5 @@ vscode "wix.glean"
 vscode "wix.vscode-import-cost"
 vscode "xabikos.JavaScriptSnippets"
 vscode "xabikos.ReactSnippets"
+vscode "yoavbls.pretty-ts-errors"
 vscode "zhuangtongfa.material-theme"

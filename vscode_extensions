@@ -1,3 +1,4 @@
+adpyke.vscode-sql-formatter
 azemoh.one-monokai
 bradlc.vscode-tailwindcss
 christian-kohler.npm-intellisense
@@ -20,6 +21,7 @@ msjsdiag.vscode-react-native
 Nash.awesome-flutter-snippets
 nrwl.angular-console
 PKief.material-icon-theme
+Prisma.prisma
 rangav.vscode-thunder-client
 rduraj.expo-toolkit-push
 vscode-icons-team.vscode-icons
@@ -27,4 +29,5 @@ wix.glean
 wix.vscode-import-cost
 xabikos.JavaScriptSnippets
 xabikos.ReactSnippets
+yoavbls.pretty-ts-errors
 zhuangtongfa.material-theme

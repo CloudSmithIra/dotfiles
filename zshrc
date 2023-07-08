@@ -145,3 +145,7 @@ alias setnvm="nvm use 16"
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+if command -v ngrok &>/dev/null; then
+    eval "$(ngrok completion)"
+  fi
