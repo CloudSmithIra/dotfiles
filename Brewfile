@@ -117,6 +117,8 @@ cask "azure-data-studio"
 cask "bartender"
 # Design tool
 cask "canva"
+# Universal database tool and SQL client
+cask "dbeaver-community"
 # Voice and text chat software
 cask "discord"
 # Free up disk space
@@ -149,6 +151,8 @@ cask "lastpass"
 cask "latest"
 # WordPress local development tool by Flywheel
 cask "local"
+# Visual diff and merge tool
+cask "meld"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Web browser
@@ -234,6 +238,8 @@ vscode "jasonnutter.search-node-modules"
 vscode "ms-vsliveshare.vsliveshare"
 vscode "ms-vsliveshare.vsliveshare-pack"
 vscode "msjsdiag.vscode-react-native"
+vscode "mtxr.sqltools"
+vscode "mtxr.sqltools-driver-pg"
 vscode "Nash.awesome-flutter-snippets"
 vscode "nrwl.angular-console"
 vscode "PKief.material-icon-theme"
